@@ -16,6 +16,11 @@
   left: 10px;
 }
 
+.button-container {
+  position: relative;
+  top: 25px;
+}
+
 /* hidden */
 canvas {
   border: 1px solid black;
