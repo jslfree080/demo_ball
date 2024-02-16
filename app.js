@@ -125,3 +125,12 @@ const events = {
 for (const event in events) {
   canvas.addEventListener(event, events[event]);
 }
+
+// Reset Button (jslfree080)
+document.querySelector('#reset').addEventListener('click', function () {
+  try {
+    while (outputs.length) {
+      outputs.pop();
+    }
+  } catch (e) { }
+});
